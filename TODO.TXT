@@ -1,1 +1,0 @@
-rename 'projectemplate' to 'solutiontemplate'
