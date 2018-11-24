@@ -78,7 +78,7 @@
       <_cTemplateProj Condition=" '$(_cTemplateProj)' != '' ">$([System.IO.Path]::GetFullPath('$(_cTemplateProj)'))</_cTemplateProj>
       <_templateOutputPathFull>$([System.IO.Path]::GetFullPath('$(TemplateOutputPath)'))</_templateOutputPathFull>
     </PropertyGroup>
-    <Message Text="_templateOutputPathFull: $(_templateOutputPathFull)" />
+    <Message Text="_templateOutputPathFull: $(_templateOutputPathFull)" Importance="high"/>
     <Message Text="building template proj: [$(_cTemplateProj)]" Importance="high"/>
 
     <MSBuild Projects="$(_cTemplateProj)" Targets="Restore" />
@@ -102,12 +102,12 @@
     <PropertyGroup>
       <_templateOutputFullpath>$([System.IO.Path]::GetFullPath('$(TemplateOutputPath)'))</_templateOutputFullpath>
     </PropertyGroup>
-    <Message Text="_templateOutputFullpath: [$(_templateOutputFullpath)]" />
+    <Message Text="_templateOutputFullpath: [$(_templateOutputFullpath)]" Importance="high"/>
     <ItemGroup>
       <_templateNuGetPkgs Include="$(_templateOutputFullpath)**/*.nupkg"
                           Exclude="$(TemplateNuGetPackagesToExcludeFromVsix)" />
     </ItemGroup>
-    <Message Text="_templateNuGetPkgs: @(_templateNuGetPkgs)" />
+    <Message Text="_templateNuGetPkgs: @(_templateNuGetPkgs)" Importance="high"/>
     <ItemGroup>
       <VSIXSourceItem Include="%(_templateNuGetPkgs.Identity)">
         <!-- <VSIXSubPath>%(_ls-ItemTemplatesOutputs.OutputPathFolder)</VSIXSubPath> -->
