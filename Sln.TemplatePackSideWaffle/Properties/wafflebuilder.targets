@@ -102,7 +102,10 @@
     <PropertyGroup>
       <_templateOutputFullpath>$([System.IO.Path]::GetFullPath('$(TemplateOutputPath)'))</_templateOutputFullpath>
     </PropertyGroup>
+    <Message Text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" Importance="high"/>
     <Message Text="_templateOutputFullpath: [$(_templateOutputFullpath)]" Importance="high"/>
+    <Message Text="TemplateNuGetPackagesToExcludeFromVsix: [$(TemplateNuGetPackagesToExcludeFromVsix)]" Importance="high"/>
+    <Message Text="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~" Importance="high"/>
     <ItemGroup>
       <_templateNuGetPkgs Include="$(_templateOutputFullpath)**/*.nupkg"
                           Exclude="$(TemplateNuGetPackagesToExcludeFromVsix)" />
