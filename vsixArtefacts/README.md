@@ -1,37 +1,37 @@
-# Work In Progress
+# Blazor Minimal Project Template
 
 <!--BadgesSTART-->
 [![Read Me Synchronizer](https://img.shields.io/badge/-powered%20by%20read%20me%20synchronizer-brightgreen.svg)](https://github.com/undefined/ReadMeSynchronizer)
 <!-- Powered by https://github.com/undefined/ReadMeSynchronizer -->
 
-[Subscribe](https://github.com/GregTrevellick/AzureDevOpsRotaWidget/subscription) to receive notificatons.
+[Subscribe](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/subscription) to receive notificatons.
 
-[![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/AzureDevOpsRotaWidget?branch=master)](https://bettercodehub.com/results/GregTrevellick/AzureDevOpsRotaWidget)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0adfce1b3ab043b79c8283a8f68ca671)](https://www.codacy.com/project/gtrevellick/AzureDevOpsRotaWidget/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/AzureDevOpsRotaWidget&amp;utm_campaign=Badge_Grade_Dashboard)
-[![CodeBeat](https://codebeat.co/badges/undefined)](https://codebeat.co/projects/github-com-gregtrevellick-azuredevopsrotawidget-master)
-[![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/AzureDevOpsRotaWidget/badge)](https://www.codefactor.io/repository/github/GregTrevellick/AzureDevOpsRotaWidget)
-[![InspecodeRocro Report](https://inspecode.rocro.com/badges/github.com/GregTrevellick/AzureDevOpsRotaWidget/report?token=ZHWlGXThCe0r9D7qzbrOJyhHHKBg3OYc4N-pq3XRuvk)](https://inspecode.rocro.com/reports/github.com/GregTrevellick/AzureDevOpsRotaWidget/branch/master/summary)
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/AzureDevOpsRotaWidget.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/AzureDevOpsRotaWidget/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/AzureDevOpsRotaWidget.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/AzureDevOpsRotaWidget/context:javascript)
-[![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/AzureDevOpsRotaWidget.svg)](https://github.com/GregTrevellick/AzureDevOpsRotaWidget)
-[![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/AzureDevOpsRotaWidget.svg)](https://github.com/GregTrevellick/AzureDevOpsRotaWidget)
-[![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/AzureDevOpsRotaWidget.svg)](https://github.com/GregTrevellick/AzureDevOpsRotaWidget/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/AzureDevOpsRotaWidget.svg)](https://github.com/GregTrevellick/AzureDevOpsRotaWidget/pulls)
-[![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=alert_status)](https://sonarcloud.io/dashboard?id=AzureDevOpsRotaWidget)
-[![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=bugs)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=bugs)
-[![Sonar&metric=code_smells](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=code_smells)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=code_smells)
-[![Sonar&metric=coverage](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=coverage)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=Coverage)
-[![Sonar&metric=duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=duplicated_lines)
-[![Sonar&metric=ncloc](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=ncloc)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=ncloc)
-[![Sonar&metric=reliability_rating](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=reliability_rating)
-[![Sonar&metric=security_rating](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=security_rating)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=security_rating)
-[![Sonar&metric=sqale_index](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=sqale_index)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=sqale_index)
-[![Sonar&metric=sqale_rating](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=sqale_rating)
-[![Sonar&metric=vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=AzureDevOpsRotaWidget&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=AzureDevOpsRotaWidget&metric=vulnerabilities)
-[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/01islyin3t8bsxoe?svg=true)](https://ci.appveyor.com/project/GregTrevellick/AzureDevOpsRotaWidget)
-[![Appveyor unit tests](https://img.shields.io/appveyor/tests/GregTrevellick/AzureDevOpsRotaWidget.svg)](https://ci.appveyor.com/project/GregTrevellick/AzureDevOpsRotaWidget/build/tests)
-[![Azure Build Status](https://gregtrevellick.visualstudio.com/AzureDevOpsRotaWidget/_apis/build/status/AzureDevOpsRotaWidget)](https://gregtrevellick.visualstudio.com/AzureDevOpsRotaWidget/_build/latest?definitionId=13)
-[![InspecodeRocro Job Status](https://inspecode.rocro.com/badges/github.com/GregTrevellick/AzureDevOpsRotaWidget/status?token=ZHWlGXThCe0r9D7qzbrOJyhHHKBg3OYc4N-pq3XRuvk)](https://inspecode.rocro.com/jobs/github.com/GregTrevellick/AzureDevOpsRotaWidget/latest?completed=true)
+[![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/VsixBlazorMinimalProjectTemplate?branch=master)](https://bettercodehub.com/results/GregTrevellick/VsixBlazorMinimalProjectTemplate)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/40dfe21f31da4c15b679bb586776a9b3)](https://www.codacy.com/project/gtrevellick/VsixBlazorMinimalProjectTemplate/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/VsixBlazorMinimalProjectTemplate&amp;utm_campaign=Badge_Grade_Dashboard)
+
+[![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/VsixBlazorMinimalProjectTemplate/badge)](https://www.codefactor.io/repository/github/GregTrevellick/VsixBlazorMinimalProjectTemplate)
+[![InspecodeRocro Report](https://inspecode.rocro.com/badges/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/report?token=kEFMGhJTLhNvwwmZKiXB72Z8IkXY1FFBb0enecLrGDg)](https://inspecode.rocro.com/reports/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/branch/master/summary)
+[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixBlazorMinimalProjectTemplate/alerts/)
+[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/GregTrevellick/VsixBlazorMinimalProjectTemplate/context:javascript)
+[![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate)
+[![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate)
+[![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/pulls)
+[![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=alert_status)](https://sonarcloud.io/dashboard?id=VsixBlazorMinimalProjectTemplate)
+[![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=bugs)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=bugs)
+[![Sonar&metric=code_smells](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=code_smells)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=code_smells)
+[![Sonar&metric=coverage](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=coverage)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=Coverage)
+[![Sonar&metric=duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=duplicated_lines)
+[![Sonar&metric=ncloc](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=ncloc)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=ncloc)
+[![Sonar&metric=reliability_rating](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=reliability_rating)
+[![Sonar&metric=security_rating](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=security_rating)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=security_rating)
+[![Sonar&metric=sqale_index](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=sqale_index)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=sqale_index)
+[![Sonar&metric=sqale_rating](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=sqale_rating)
+[![Sonar&metric=vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=VsixBlazorMinimalProjectTemplate&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=VsixBlazorMinimalProjectTemplate&metric=vulnerabilities)
+[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/kje6fcd2r5ng44p1?svg=true)](https://ci.appveyor.com/project/GregTrevellick/VsixBlazorMinimalProjectTemplate)
+[![Appveyor unit tests](https://img.shields.io/appveyor/tests/GregTrevellick/VsixBlazorMinimalProjectTemplate.svg)](https://ci.appveyor.com/project/GregTrevellick/VsixBlazorMinimalProjectTemplate/build/tests)
+[![Azure Build Status](https://gregtrevellick.visualstudio.com/VsixBlazorMinimalProjectTemplate/_apis/build/status/VsixBlazorMinimalProjectTemplate)](https://gregtrevellick.visualstudio.com/VsixBlazorMinimalProjectTemplate/_build/latest?definitionId=5)
+[![InspecodeRocro Job Status](https://inspecode.rocro.com/badges/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/status?token=kEFMGhJTLhNvwwmZKiXB72Z8IkXY1FFBb0enecLrGDg)](https://inspecode.rocro.com/jobs/github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/latest?completed=true)
 [![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
 [![Access Lint github](https://img.shields.io/badge/a11y-checked-brightgreen.svg)](https://www.accesslint.com)
 [![ImgBot](https://img.shields.io/badge/images-optimized-brightgreen.svg)](https://imgbot.net/)
@@ -39,61 +39,72 @@
 [![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
 [![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
 
-[![Visual Studio Marketplace version](https://img.shields.io/badge/-AzureDevOpsRotaWidget-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AzureDevOpsRotaWidget)
-[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.AzureDevOpsRotaWidget.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AzureDevOpsRotaWidget)
-[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.AzureDevOpsRotaWidget.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AzureDevOpsRotaWidget)
-[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.AzureDevOpsRotaWidget.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.AzureDevOpsRotaWidget)
+[![Visual Studio Marketplace version](https://img.shields.io/badge/-BlazorMinimalProjectTemplate-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.BlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.BlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
+[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.BlazorMinimalProjectTemplate.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.BlazorMinimalProjectTemplate)
 
 
 <!--BadgesEND-->
 
 
-<!--
 
-#### scaffolding
+<!--VSMM readme start-->
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+[GitHubRepoPullRequestsURL]: https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/pulls
 
-#### tests
+A Visual Studio IDE extension providing users with a project template for a .Net Standard project with a minimal implementation of [Blazor](https://blazor.net/) (an experimental web UI framework based on C#, Razor, and HTML that runs in the browser via WebAssembly).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+> **NOTE**
+> 
+>Blazor is an unsupported experimental web framework that shouldn't be used for production workloads at this time (September 2018)
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+When you create a new project...
 
-#### credits
+![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen0.png?raw=true)
 
-http://www.ericksegaar.com/2017/11/27/using-typescript-for-your-vsts-extension-walk-trough/
+...here's what you get...
 
-https://blogs.msdn.microsoft.com/serkani/2015/11/30/consuming-vss-sdk-js/
+![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen1.png?raw=true)
 
-https://medium.com/@davembush/adding-css-and-javascript-to-an-angular-cli-project-2b843a8283f3
+...which you can F5 build / run to get this:
 
-https://nitayneeman.com/posts/understanding-the-angular-cli-workspace-file/
+![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen2.png?raw=true)
 
-https://github.com/nitayneeman/angular-cli-workspace-example
+More advanced Visual Studio Blazor project templates are available [here](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor).
 
-http://youtu.be/tybcHBQIpwk
+If you like this **free** extension please take just a few seconds to give it a rating.
 
-https://medium.com/@sunilk/getting-started-angular-6-and-ng-bootstrap-4-4b314e015c1c
+Contributions welcome [here][GitHubRepoPullRequestsURL].
 
-#### todo
+See the [change log](CHANGELOG.md) for release history.
 
-https://docs.microsoft.com/en-us/azure/devops/extend/develop/add-dashboard-widget?view=vsts#step-5-extension-manifest-updates-1
+<!--VSMM readme end-->
 
-#### sdk
+## Credits
 
-https://github.com/Microsoft/vss-web-extension-sdk
+[.NET Foundation](https://github.com/dotnet/templating/issues/1209)
 
-https://github.com/Microsoft/vss-web-extension-sdk/blob/master/typings/vss.d.ts
+[DotNet Templating](https://github.com/dotnet/templating/wiki)
 
-https://github.com/Microsoft/vss-web-extension-sdk/blob/master/typings/VSS.SDK.d.ts
+[Jonathan Miller](https://msdn.microsoft.com/magazine/mt829752?MC=MSAzure&MC=DevOps&MC=Vstudio&MC=Testing&MC=CSHARP&f=255&MSPPError=-2147217396)
 
-#### ng2
+[LigerShark](https://github.com/ligershark/sidewafflev2/issues/31)
 
-https://angular.io/guide/quickstart
+[Mads Kristensen](https://github.com/madskristensen/TemplateCreator)
 
-https://angular.io/guide/deployment
+[Microsoft DevLabs](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor)
 
-https://github.com/angular/angular-cli/blob/master/README.md
+[Peter Vogel](https://visualstudiomagazine.com/articles/2018/09/01/integrating-javascript-csharp.aspx?platform=hootsuite&m=1)
 
--->
+[Rick Strahl](https://weblog.west-wind.com/posts/2018/Jul/31/Web-Assembly-and-Blazor-Reassembling-the-Web)
+
+[Sayed Hashimi](https://www.youtube.com/watch?v=g6az_N95dVM&feature=youtu.be)
+
+[Sayed Ibrahim Hashimi](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/)
+
+## License
+
+Software License is available [here](/LICENSE.txt).
+
+[Charity ware][CharityWareURL].
