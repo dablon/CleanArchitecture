@@ -1,4 +1,4 @@
-# Blazor Minimal Project Template
+# Clean Architecture Solution Template
 
 <!--BadgesSTART-->
 [![Read Me Synchronizer](https://img.shields.io/badge/-powered%20by%20read%20me%20synchronizer-brightgreen.svg)](https://github.com/undefined/ReadMeSynchronizer)
@@ -61,17 +61,11 @@ A Visual Studio IDE extension providing users with a project template for a .Net
 
 When you create a new project...
 
-![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen0.png?raw=true)
+![](https://github.com/GregTrevellick/CleanArchitecture/blob/master/vsixTemplatePackSideWaffle/Resources/screen0.png?raw=true)
 
 ...here's what you get...
 
-![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen1.png?raw=true)
-
-...which you can F5 build / run to get this:
-
-![](https://github.com/GregTrevellick/VsixBlazorMinimalProjectTemplate/blob/master/Src/BlazorMinimalProjectTemplate.TemplatePackSideWaffle/Resources/screen2.png?raw=true)
-
-More advanced Visual Studio Blazor project templates are available [here](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor).
+![](https://github.com/GregTrevellick/CleanArchitecture/blob/master/vsixTemplatePackSideWaffle/Resources/screen1.png?raw=true)
 
 If you like this **free** extension please take just a few seconds to give it a rating.
 
@@ -83,25 +77,7 @@ See the [change log](CHANGELOG.md) for release history.
 
 ## Credits
 
-[.NET Foundation](https://github.com/dotnet/templating/issues/1209)
-
-[DotNet Templating](https://github.com/dotnet/templating/wiki)
-
-[Jonathan Miller](https://msdn.microsoft.com/magazine/mt829752?MC=MSAzure&MC=DevOps&MC=Vstudio&MC=Testing&MC=CSHARP&f=255&MSPPError=-2147217396)
-
-[LigerShark](https://github.com/ligershark/sidewafflev2/issues/31)
-
-[Mads Kristensen](https://github.com/madskristensen/TemplateCreator)
-
-[Microsoft DevLabs](https://marketplace.visualstudio.com/items?itemName=aspnet.blazor)
-
-[Peter Vogel](https://visualstudiomagazine.com/articles/2018/09/01/integrating-javascript-csharp.aspx?platform=hootsuite&m=1)
-
-[Rick Strahl](https://weblog.west-wind.com/posts/2018/Jul/31/Web-Assembly-and-Blazor-Reassembling-the-Web)
-
-[Sayed Hashimi](https://www.youtube.com/watch?v=g6az_N95dVM&feature=youtu.be)
-
-[Sayed Ibrahim Hashimi](https://blogs.msdn.microsoft.com/dotnet/2017/04/02/how-to-create-your-own-templates-for-dotnet-new/)
+[Steve 'ardalis' Smith](https://github.com/ardalis/CleanArchitecture)
 
 ## License
 
