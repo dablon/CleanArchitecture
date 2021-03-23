@@ -1,12 +1,11 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.SharedKernel.Interfaces;
-using CleanArchitecture.Web.ApiModels;
-using CleanArchitecture.Web.Filters;
-using Microsoft.AspNetCore.Mvc;
-using System.Linq;
+﻿using System.Linq;
 using System.Threading.Tasks;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.SharedKernel.Interfaces;
+using Clean.Architecture.Web.ApiModels;
+using Microsoft.AspNetCore.Mvc;
 
-namespace CleanArchitecture.Web.Api
+namespace Clean.Architecture.Web.Api
 {
     public class ToDoItemsController : BaseApiController
     {

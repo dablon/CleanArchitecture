@@ -15,7 +15,7 @@ git remote -v // Verify the new upstream repository you've specified for your fo
 
 git fetch upstream // updates in remote upstream will be fetched to local repo in "upstream/master"
 
-git merge upstream/master // merge the changes in upstream/master into your local master branch
+git merge upstream/master // merge the changes in upstream/master into your local master or feature branch
 
 resolve merge conflicts
 

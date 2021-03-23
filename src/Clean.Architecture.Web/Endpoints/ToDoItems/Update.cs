@@ -1,13 +1,16 @@
-﻿using Ardalis.ApiEndpoints;
-using CleanArchitecture.Core.Entities;
-using CleanArchitecture.SharedKernel.Interfaces;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using Ardalis.ApiEndpoints;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.SharedKernel.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
-using System.Threading.Tasks;
 
-namespace CleanArchitecture.Web.Endpoints.ToDoItems
+namespace Clean.Architecture.Web.Endpoints.ToDoItems
 {
-    public class Update : BaseAsyncEndpoint<UpdateToDoItemRequest,ToDoItemResponse>
+    public class Update : BaseAsyncEndpoint
+        .WithRequest<UpdateToDoItemRequest>
+        .WithResponse<ToDoItemResponse>
     {
         private readonly IRepository _repository;
 
@@ -23,7 +26,7 @@ namespace CleanArchitecture.Web.Endpoints.ToDoItems
             OperationId = "ToDoItem.Update",
             Tags = new[] { "ToDoItemEndpoints" })
         ]
-        public override async Task<ActionResult<ToDoItemResponse>> HandleAsync(UpdateToDoItemRequest request)
+        public override async Task<ActionResult<ToDoItemResponse>> HandleAsync(UpdateToDoItemRequest request, CancellationToken cancellationToken)
         {
             var existingItem = await _repository.GetByIdAsync<ToDoItem>(request.Id);
 

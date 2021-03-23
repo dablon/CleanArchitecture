@@ -1,15 +1,18 @@
-﻿using Ardalis.ApiEndpoints;
-using CleanArchitecture.Core.Entities;
-using CleanArchitecture.SharedKernel.Interfaces;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading;
+using System.Threading.Tasks;
+using Ardalis.ApiEndpoints;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.SharedKernel.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
-namespace CleanArchitecture.Web.Endpoints.ToDoItems
+namespace Clean.Architecture.Web.Endpoints.ToDoItems
 {
-    public class List : BaseAsyncEndpoint<List<ToDoItemResponse>>
+    public class List : BaseAsyncEndpoint
+        .WithoutRequest
+        .WithResponse<List<ToDoItemResponse>>
     {
         private readonly IRepository _repository;
 
@@ -25,7 +28,7 @@ namespace CleanArchitecture.Web.Endpoints.ToDoItems
             OperationId = "ToDoItem.List",
             Tags = new[] { "ToDoItemEndpoints" })
         ]
-        public override async Task<ActionResult<List<ToDoItemResponse>>> HandleAsync()
+        public override async Task<ActionResult<List<ToDoItemResponse>>> HandleAsync(CancellationToken cancellationToken)
         {
             var items = (await _repository.ListAsync<ToDoItem>())
                 .Select(item => new ToDoItemResponse

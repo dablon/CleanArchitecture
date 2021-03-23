@@ -1,13 +1,13 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Web;
-using Newtonsoft.Json;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.Web;
+using Newtonsoft.Json;
 using Xunit;
 
-namespace CleanArchitecture.FunctionalTests.Api
+namespace Clean.Architecture.FunctionalTests.Api
 {
     public class ApiToDoItemsControllerList : IClassFixture<CustomWebApplicationFactory<Startup>>
     {
@@ -30,9 +30,6 @@ namespace CleanArchitecture.FunctionalTests.Api
             Assert.Contains(result, i => i.Title == SeedData.ToDoItem1.Title);
             Assert.Contains(result, i => i.Title == SeedData.ToDoItem2.Title);
             Assert.Contains(result, i => i.Title == SeedData.ToDoItem3.Title);
-            //Assert.Equal(1, result.Count(a => a == SeedData.ToDoItem1));
-            //Assert.Equal(1, result.Count(a => a == SeedData.ToDoItem2));
-            //Assert.Equal(1, result.Count(a => a == SeedData.ToDoItem3));
         }
     }
 }

@@ -1,13 +1,16 @@
-﻿using Ardalis.ApiEndpoints;
-using CleanArchitecture.Core.Entities;
-using CleanArchitecture.SharedKernel.Interfaces;
+﻿using System.Threading;
+using System.Threading.Tasks;
+using Ardalis.ApiEndpoints;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.SharedKernel.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Swashbuckle.AspNetCore.Annotations;
-using System.Threading.Tasks;
 
-namespace CleanArchitecture.Web.Endpoints.ToDoItems
+namespace Clean.Architecture.Web.Endpoints.ToDoItems
 {
-    public class Delete : BaseAsyncEndpoint<int,ToDoItemResponse>
+    public class Delete : BaseAsyncEndpoint
+        .WithRequest<int>
+        .WithoutResponse
     {
         private readonly IRepository _repository;
 
@@ -23,7 +26,7 @@ namespace CleanArchitecture.Web.Endpoints.ToDoItems
             OperationId = "ToDoItem.Delete",
             Tags = new[] { "ToDoItemEndpoints" })
         ]
-        public override async Task<ActionResult<ToDoItemResponse>> HandleAsync(int id)
+        public override async Task<ActionResult> HandleAsync(int id, CancellationToken cancellationToken)
         {
             var itemToDelete = await _repository.GetByIdAsync<ToDoItem>(id);
             if (itemToDelete == null) return NotFound();

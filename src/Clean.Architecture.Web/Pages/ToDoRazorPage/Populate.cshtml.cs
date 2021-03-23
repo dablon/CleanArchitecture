@@ -1,8 +1,8 @@
-﻿using CleanArchitecture.Core;
-using CleanArchitecture.SharedKernel.Interfaces;
+﻿using Clean.Architecture.Core;
+using Clean.Architecture.SharedKernel.Interfaces;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace CleanArchitecture.Web.Pages.ToDoRazorPage
+namespace Clean.Architecture.Web.Pages.ToDoRazorPage
 {
     public class PopulateModel : PageModel
     {

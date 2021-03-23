@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Core.Events;
-using CleanArchitecture.Core.Interfaces;
-using CleanArchitecture.SharedKernel;
+﻿using Clean.Architecture.Core.Events;
+using Clean.Architecture.SharedKernel;
+using Clean.Architecture.SharedKernel.Interfaces;
 
-namespace CleanArchitecture.Core.Entities
+namespace Clean.Architecture.Core.Entities
 {
-    public class ToDoItem : BaseEntity
+    public class ToDoItem : BaseEntity, IAggregateRoot
     {
         public string Title { get; set; } = string.Empty;
         public string Description { get; set; }

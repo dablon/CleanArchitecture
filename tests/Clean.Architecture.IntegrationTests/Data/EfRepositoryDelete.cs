@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.UnitTests;
-using System;
+﻿using System;
 using System.Threading.Tasks;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.UnitTests;
 using Xunit;
 
-namespace CleanArchitecture.IntegrationTests.Data
+namespace Clean.Architecture.IntegrationTests.Data
 {
     public class EfRepositoryDelete : BaseEfRepoTestFixture
     {

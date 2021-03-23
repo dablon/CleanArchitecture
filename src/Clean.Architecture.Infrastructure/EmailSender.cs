@@ -1,9 +1,9 @@
-﻿using CleanArchitecture.Core.Interfaces;
-using Microsoft.Extensions.Logging;
-using System.Net.Mail;
+﻿using System.Net.Mail;
 using System.Threading.Tasks;
+using Clean.Architecture.Core.Interfaces;
+using Microsoft.Extensions.Logging;
 
-namespace CleanArchitecture.Infrastructure
+namespace Clean.Architecture.Infrastructure
 {
     public class EmailSender : IEmailSender
     {

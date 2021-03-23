@@ -1,9 +1,8 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Core.Events;
-using System.Linq;
+﻿using System.Linq;
+using Clean.Architecture.Core.Events;
 using Xunit;
 
-namespace CleanArchitecture.UnitTests.Core.Entities
+namespace Clean.Architecture.UnitTests.Core.Entities
 {
     public class ToDoItemMarkComplete
     {

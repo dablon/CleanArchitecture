@@ -64,13 +64,15 @@ Or if you're feeling really generous, we now support GitHub sponsorships - see t
 
 ## Versions
 
-The master branch is now using .NET Core Version 3.1. If you need a 2.x version use one of these tagged commits:
+The master branch is now using .NET 5. If you need a previous version use one of these tagged commits:
 
+- [3.1](https://github.com/ardalis/CleanArchitecture/tree/dotnet-core-3.1)
 - [2.2](https://github.com/ardalis/CleanArchitecture/tree/dotnet-core-2.2)
 - [2.0](https://github.com/ardalis/CleanArchitecture/tree/dotnet-core-2.0)
 
 ## Learn More
 
+- [Live Stream Recordings Working on Clean Architecture](https://www.youtube.com/c/Ardalis/search?query=clean%20architecture)
 - [DotNetRocks Podcast Discussion with Steve "ardalis" Smith](https://player.fm/series/net-rocks/clean-architecture-with-steve-smith)
 - [Fritz and Friends Streaming Discussion with Steve "ardalis" Smith](https://www.youtube.com/watch?v=k8cZUW4MS3I)
 
@@ -80,8 +82,9 @@ To use this template, there are a few options:
 
 - [Install the Visual Studio Template](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture) and use it within Visual Studio
 - Download this Repository
+- Install using `dotnet new` (see below)
 
-I'll cover both options here.
+These are all covered below.
 
 ## Using the Visual Studio Item Template
 
@@ -94,6 +97,31 @@ After choosing this template, provide a project name and finish the project crea
 ![Clean Architecture Project Template step 2](https://user-images.githubusercontent.com/782127/80412455-e5818300-889b-11ea-8219-379581583a92.png)
 
 Note that the template is generally only updated with major updates to the project. The GitHub repository will always have the latest bug fixes and enhancements.
+
+## Using the dotnet CLI template
+
+First, install the template from NuGet:
+
+```powershell
+dotnet new -i Ardalis.CleanArchitecture.Template
+```
+
+You should see the template in the list of templates from `dotnet new` after this install successfully. Look for "Steve Smith Clean Architecture" with Short Name of "clean-arch".
+
+Navigate to the directory where you will put the new solution.
+
+Run this command to create the solution structure in a subfolder name `Your.ProjectName`:
+
+```
+dotnet new clean-arch -o Your.ProjectName
+```
+
+The `Your.ProjectName` directory and solution file will be created, and inside that will be all of your new solution contents, properly namespaced and ready to run/test!
+
+Example:
+![powershell screenshot showing steps](https://user-images.githubusercontent.com/782127/101661723-9fd28e80-3a16-11eb-8be4-f9195d825ad6.png)
+
+Thanks [@dahlsailrunner](https://github.com/dahlsailrunner) for your help getting this working!
 
 ## Using the GitHub Repository
 
@@ -177,6 +205,13 @@ This solution template has code built in to support a few common patterns, espec
 Domain events are a great pattern for decoupling a trigger for an operation from its implementation. This is especially useful from within domain entities since the handlers of the events can have dependencies while the entities themselves typically do not. In the sample, you can see this in action with the `ToDoItem.MarkComplete()` method. The following sequence diagram demonstrates how the event and its handler are used when an item is marked complete through a web API endpoint.
 
 ![Domain Event Sequence Diagram](https://user-images.githubusercontent.com/782127/75702680-216ce300-5c73-11ea-9187-ec656192ad3b.png)
+
+## Related Projects
+
+- [ApiEndpoints](https://github.com/ardalis/apiendpoints)
+- [GuardClauses](https://github.com/ardalis/guardclauses)
+- [Result](https://github.com/ardalis/result)
+- [Specification](https://github.com/ardalis/specification)
 
 ## The Fork 
 

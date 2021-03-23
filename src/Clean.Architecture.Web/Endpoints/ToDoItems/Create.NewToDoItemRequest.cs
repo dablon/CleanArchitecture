@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace CleanArchitecture.Web.Endpoints.ToDoItems
+namespace Clean.Architecture.Web.Endpoints.ToDoItems
 {
     public class NewToDoItemRequest
     {

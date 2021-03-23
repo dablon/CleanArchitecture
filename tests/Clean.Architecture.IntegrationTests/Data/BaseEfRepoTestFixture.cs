@@ -1,10 +1,10 @@
-﻿using CleanArchitecture.SharedKernel.Interfaces;
-using CleanArchitecture.Infrastructure.Data;
+﻿using Clean.Architecture.Infrastructure.Data;
+using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Moq;
 
-namespace CleanArchitecture.IntegrationTests.Data
+namespace Clean.Architecture.IntegrationTests.Data
 {
     public abstract class BaseEfRepoTestFixture
     {
@@ -30,9 +30,9 @@ namespace CleanArchitecture.IntegrationTests.Data
         protected EfRepository GetRepository()
         {
             var options = CreateNewContextOptions();
-            var mockDispatcher = new Mock<IDomainEventDispatcher>();
+            var mockMediator = new Mock<IMediator>();
 
-            _dbContext = new AppDbContext(options, mockDispatcher.Object);
+            _dbContext = new AppDbContext(options, mockMediator.Object);
             return new EfRepository(_dbContext);
         }
     }

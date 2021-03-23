@@ -1,11 +1,11 @@
-﻿using CleanArchitecture.Core.Entities;
-using CleanArchitecture.Infrastructure.Data;
+﻿using System;
+using System.Linq;
+using Clean.Architecture.Core.Entities;
+using Clean.Architecture.Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Linq;
 
-namespace CleanArchitecture.Web
+namespace Clean.Architecture.Web
 {
     public static class SeedData
     {

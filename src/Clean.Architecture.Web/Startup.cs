@@ -1,19 +1,15 @@
-﻿using Ardalis.ListStartupServices;
+﻿using System.Collections.Generic;
+using Ardalis.ListStartupServices;
 using Autofac;
-using CleanArchitecture.Infrastructure;
+using Clean.Architecture.Infrastructure;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Controllers;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
-using Swashbuckle.AspNetCore.SwaggerGen;
-using System.Collections.Generic;
-using System.Linq;
 
-namespace CleanArchitecture.Web
+namespace Clean.Architecture.Web
 {
 	public class Startup
 	{

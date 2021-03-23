@@ -1,4 +1,4 @@
-﻿namespace CleanArchitecture.Web.Endpoints.ToDoItems
+﻿namespace Clean.Architecture.Web.Endpoints.ToDoItems
 {
     public class ToDoItemResponse
     {
