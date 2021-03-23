@@ -1,11 +1,11 @@
 SYNC WITH UPSTREAM
 ==================
 
-clone get ardalis latest version 
+clone / get ardalis latest version from https://github.com/ardalis/CleanArchitecture 
 
 build ardalis latest version (to prove it does)
 
-run the vsix, create a new sln, compare ardalis to trevellick - should be SOME diffs
+OPTIONAL run the vsix, create a new sln, compare ardalis to trevellick - should be SOME diffs
 
 git remote -v // List the current configured remote repository for your fork (ardalis not listed)
 
