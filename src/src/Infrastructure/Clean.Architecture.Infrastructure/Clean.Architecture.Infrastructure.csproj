@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="$(MicrosoftBuildCentralPackageVersions)" />
+  
+  <PropertyGroup>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification.EntityFrameworkCore" Version="$(ArdalisSpecificationEntityFrameworkCore)" />
+    <PackageReference Include="Autofac" Version="$(Autofac)" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="$(AutofacExtensionsDependencyInjection)" />
+    <PackageReference Include="Ardalis.EFCore.Extensions" Version="$(ArdalisEFCoreExtensions)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" PrivateAssets="all" Version="$(MicrosoftEntityFrameworkCoreTools)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="$(MicrosoftEntityFrameworkCoreSqlServer)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="$(MicrosoftEntityFrameworkCoreSqlite)" />
+    <PackageReference Include="SQLite" Version="$(SQLite)" />
+    <PackageReference Include="NETStandard.Library" Version="$(NETStandardLibrary)" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\src\Domain\Clean.Architecture.Core\Clean.Architecture.Core.csproj" />
+    <ProjectReference Include="..\src\Infrastructure\Clean.Architecture.SharedKernel\Clean.Architecture.SharedKernel.csproj" />
+  </ItemGroup>
+</Project>

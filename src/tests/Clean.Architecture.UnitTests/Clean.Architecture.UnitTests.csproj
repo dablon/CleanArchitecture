@@ -1,8 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
-  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="2.0.46" />
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="$(MicrosoftBuildCentralPackageVersions)" />
 
   <PropertyGroup>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
     <PreserveCompilationContext>true</PreserveCompilationContext>
   </PropertyGroup>
 
@@ -12,22 +12,22 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.9.4" />
-    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.3">
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(MicrosoftNETTestSdk)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XunitRunnerVisualstudio)">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="coverlet.collector" Version="3.0.3">
+    <PackageReference Include="coverlet.collector" Version="$(CoverletCollector)">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <PackageReference Include="Moq" Version="4.16.1" />
-    <PackageReference Include="ReportGenerator" Version="4.8.8" />
-    <PackageReference Include="xunit" Version="2.4.1" />
+    <PackageReference Include="Moq" Version="$(Moq)" />
+    <PackageReference Include="ReportGenerator" Version="$(ReportGenerator)" />
+    <PackageReference Include="xunit" Version="$(Xunit)" />
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Clean.Architecture.Web\Clean.Architecture.Web.csproj" />
+    <ProjectReference Include="..\..\src\Applications\Clean.Architecture.Web\Clean.Architecture.Web.csproj" />
   </ItemGroup>
 
   <ItemGroup>
