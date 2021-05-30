@@ -21,7 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\src\tests\Clean.Architecture.UnitTests\Clean.Architecture.UnitTests.csproj" />
+    <ProjectReference Include="..\Clean.Architecture.UnitTests\Clean.Architecture.UnitTests.csproj" />
   </ItemGroup>
 
   <ItemGroup>
