@@ -20,6 +20,8 @@
     <PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCore)" />
     <PackageReference Include="NETStandard.Library" Version="$(NETStandardLibrary)" />
     <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="$(SwashbuckleAspNetCoreAnnotations)" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+
   </ItemGroup>
   
   <ItemGroup>

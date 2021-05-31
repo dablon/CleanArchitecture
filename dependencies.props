@@ -10,20 +10,20 @@
     <ArdalisHttpClientTestExtensions>1.0.0</ArdalisHttpClientTestExtensions>
     <ArdalisGuardClauses>3.2.0</ArdalisGuardClauses>
     <ArdalisListStartupServices>1.1.3</ArdalisListStartupServices>
-	<ArdalisResult>3.1.1</ArdalisResult>
+	  <ArdalisResult>3.1.1</ArdalisResult>
     <ArdalisResultAspNetCore>3.0.1</ArdalisResultAspNetCore>
     <ArdalisSpecification>5.1.0</ArdalisSpecification>
     <ArdalisSpecificationEntityFrameworkCore>5.1.0</ArdalisSpecificationEntityFrameworkCore>
     <Autofac>6.2.0</Autofac>
     <AutofacExtensionsDependencyInjection>7.1.0</AutofacExtensionsDependencyInjection>
-	<MediatR>9.0.0</MediatR>
-	<MicrosoftAspNetCoreMvcNewtonsoftJson>5.0.5</MicrosoftAspNetCoreMvcNewtonsoftJson>
+	  <MediatR>9.0.0</MediatR>
+	  <MicrosoftAspNetCoreMvcNewtonsoftJson>5.0.5</MicrosoftAspNetCoreMvcNewtonsoftJson>
     <MicrosoftBuildCentralPackageVersions>2.0.46</MicrosoftBuildCentralPackageVersions>
-	<MicrosoftEntityFrameworkCoreInMemory>5.0.5</MicrosoftEntityFrameworkCoreInMemory>
+  	<MicrosoftEntityFrameworkCoreInMemory>5.0.5</MicrosoftEntityFrameworkCoreInMemory>
     <MicrosoftEntityFrameworkCoreSqlServer>5.0.5</MicrosoftEntityFrameworkCoreSqlServer>
     <MicrosoftEntityFrameworkCoreSqlite>5.0.6</MicrosoftEntityFrameworkCoreSqlite>
     <MicrosoftEntityFrameworkCoreTools>5.0.5</MicrosoftEntityFrameworkCoreTools>
-	<MicrosoftVisualStudioWebCodeGenerationDesign>5.0.2</MicrosoftVisualStudioWebCodeGenerationDesign>
+	  <MicrosoftVisualStudioWebCodeGenerationDesign>5.0.2</MicrosoftVisualStudioWebCodeGenerationDesign>
     <Moq>4.16.1</Moq>
     <NETStandardLibrary>2.0.3</NETStandardLibrary>
     <NewtonsoftJson>13.0.1</NewtonsoftJson>
@@ -31,7 +31,9 @@
     <SwashbuckleAspNetCore>6.1.4</SwashbuckleAspNetCore>
     <SerilogAspNetCore>4.1.0</SerilogAspNetCore>
     <SQLite>3.13.0</SQLite>
-    <SwashbuckleAspNetCoreAnnotations>2.10.0</SwashbuckleAspNetCoreAnnotations>
+    <SwashbuckleAspNetCoreAnnotations>6.1.4</SwashbuckleAspNetCoreAnnotations>
+	  <SwashbuckleAspNetCoreFilters>7.0.2</SwashbuckleAspNetCoreFilters>
+
   </PropertyGroup>
 
   <PropertyGroup Label="Test Package Versions">
