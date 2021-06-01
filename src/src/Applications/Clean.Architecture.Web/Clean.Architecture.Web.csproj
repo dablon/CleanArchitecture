@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <Sdk Name="Microsoft.Build.CentralPackageVersions" Version="$(MicrosoftBuildCentralPackageVersions)" />
+  <PropertyGroup>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <OutputType>Exe</OutputType>
+    <WebProjectMode>true</WebProjectMode>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Ardalis.ApiEndpoints" Version="$(ArdalisApiEndpoints)" />
+    <PackageReference Include="Ardalis.ListStartupServices" Version="$(ArdalisListStartupServices)" />
+    <PackageReference Include="Ardalis.Result" Version="$(ArdalisResult)" />
+    <PackageReference Include="Ardalis.Result.AspNetCore" Version="$(ArdalisResultAspNetCore)" />
+    <PackageReference Include="MediatR" Version="$(MediatR)" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="$(MicrosoftAspNetCoreMvcNewtonsoftJson)" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" PrivateAssets="all" Version="$(MicrosoftEntityFrameworkCoreTools)" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" PrivateAssets="All" Version="$(MicrosoftVisualStudioWebCodeGenerationDesign)" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="$(SwashbuckleAspNetCore)" />
+    <PackageReference Include="Serilog.AspNetCore" Version="$(SerilogAspNetCore)" />
+    <PackageReference Include="NETStandard.Library" Version="$(NETStandardLibrary)" />
+    <PackageReference Include="Swashbuckle.AspNetCore.Annotations" Version="$(SwashbuckleAspNetCoreAnnotations)" />
+	  <PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+
+  </ItemGroup>
+  
+  <ItemGroup>
+    <ProjectReference Include="..\..\Infrastructure\Clean.Architecture.Infrastructure\Clean.Architecture.Infrastructure.csproj" />
+  </ItemGroup>
+  
+</Project>

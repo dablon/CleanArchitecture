@@ -1,6 +1,6 @@
 {
   "$schema": "http://json.schemastore.org/template",
-  "author": "Steve Smith, Erik Dahl",
+  "author": "Nicolas Alcaraz",
   "classifications": [
     "cleanarch",
     "clean architecture",
@@ -20,31 +20,16 @@
   },
   "identity": "Clean.Architecture",
   "groupIdentity": "CleanArchitecture",
-  "name": "Steve (@ardalis) Smith Clean Architecture",
+  "name": "Dablon Clean Architecture",
   "preferNameDirectory": true,
-  "shortName": "clean-arch",
+  "shortName": "clean-arch-dablon",
   "sourceName": "Clean.Architecture",
-  "primaryOutputs": [
+  "sources": [
     {
-      "path": "src\\Clean.Architecture.Core\\Clean.Architecture.Core.csproj"
-    },
-    {
-      "path": "src\\Clean.Architecture.Infrastructure\\Clean.Architecture.Infrastructure.csproj"
-    },
-    {
-      "path": "src\\Clean.Architecture.SharedKernel\\Clean.Architecture.SharedKernel.csproj"
-    },
-    {
-      "path": "src\\Clean.Architecture.Web\\Clean.Architecture.Web.csproj"
-    },
-    {
-      "path": "tests\\Clean.Architecture.UnitTests\\Clean.Architecture.UnitTests.csproj"
-    },
-    {
-      "path": "tests\\Clean.Architecture.IntegrationTests\\Clean.Architecture.IntegrationTests.csproj"
-    },
-    {
-      "path": "tests\\Clean.Architecture.FunctionalTests\\Clean.Architecture.FunctionalTests.csproj"
+      "source": "./",
+      "include": [ "**/*" ],
+      "exclude": [ "**/[Bb]in/", "**/[Oo]bj/", "**/.template.config/**/*", "**/*.filelist", "**/*.config", "**/vsixTemplatePackSideWaffle/*", "**/vsixArtefacts/*" ]
     }
   ]
+  
 }

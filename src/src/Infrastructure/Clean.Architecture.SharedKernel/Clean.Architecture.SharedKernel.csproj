@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetCoreTargetVersion)</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification" Version="$(ArdalisSpecification)" />
+    <PackageReference Include="MediatR" Version="$(MediatR)" />
+  </ItemGroup>
+
+</Project>
