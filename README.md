@@ -4,7 +4,8 @@
 <!-- Powered by https://github.com/GregTrevellick/ReadMeSynchronizer -->
 [![BCH compliance](https://bettercodehub.com/edge/badge/dablon/CleanArchitecture?branch=master)](https://bettercodehub.com/)
 [![Codacy Badge](https://app.codacy.com/project/badge/Grade/f23c2638129b47188c399a40e27ffdd9)](https://www.codacy.com/gh/dablon/CleanArchitecture/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dablon/CleanArchitecture&amp;utm_campaign=Badge_Grade)
-
+[![CodeFactor](https://www.codefactor.io/repository/github/dablon/cleanarchitecture/badge)](https://www.codefactor.io/repository/github/dablon/cleanarchitecture)
+[![Build status](https://ci.appveyor.com/api/projects/status/69oaovbaleue5071?svg=true)](https://ci.appveyor.com/project/dablon/cleanarchitecture)
 
 <!--BadgesEND-->
 [![.NET Core](https://github.com/ardalis/CleanArchitecture/workflows/.NET%20Core/badge.svg)](https://github.com/ardalis/CleanArchitecture/actions)
