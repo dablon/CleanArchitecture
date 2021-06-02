@@ -1,52 +1,9 @@
->## NOTE: This repo is a fork of Steve Smith's [Clean Architecture](https://github.com/ardalis/CleanArchitecture) repo with additional code to facilitate publication as a [Visual Studio extension](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture). 
-> [More info](https://github.com/GregTrevellick/CleanArchitecture#the-fork)
- 
+>## NOTE: This repo is a fork of Steve Smith's [Clean Architecture](https://github.com/ardalis/CleanArchitecture) repo with additional code to facilitate publication as a 
 
 <!--BadgesSTART-->
 <!-- Powered by https://github.com/GregTrevellick/ReadMeSynchronizer -->
-[![Read Me Synchronizer](https://img.shields.io/badge/-powered%20by%20ReadMeSynchronizer-brightgreen.svg)](https://github.com/GregTrevellick/ReadMeSynchronizer)
-[![BetterCodeHub compliance](https://bettercodehub.com/edge/badge/GregTrevellick/CleanArchitecture?branch=master)](https://bettercodehub.com/results/GregTrevellick/CleanArchitecture)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b74ee0e8da64daf94199f8a7f2fcf12)](https://www.codacy.com/project/gtrevellick/CleanArchitecture/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=GregTrevellick/CleanArchitecture&amp;utm_campaign=Badge_Grade_Dashboard)
- [![CodeFactor](https://www.codefactor.io/repository/github/GregTrevellick/CleanArchitecture/badge)](https://www.codefactor.io/repository/github/GregTrevellick/CleanArchitecture)
-[![CodeScene Code Health](https://codescene.io/projects/7067/status-badges/code-health)](https://codescene.io/projects/7067)
-[![CodeScene System Mastery](https://codescene.io/projects/7067/status-badges/system-mastery)](https://codescene.io/projects/7067)
-[![LGTM Alerts](https://img.shields.io/lgtm/alerts/g/ardalis/CleanArchitecture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ardalis/CleanArchitecture/alerts/)
-[![Language grade: JavaScript](https://img.shields.io/lgtm/grade/javascript/g/ardalis/CleanArchitecture.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/ardalis/CleanArchitecture/context:javascript)
-[![GitHub top language](https://img.shields.io/github/languages/top/GregTrevellick/CleanArchitecture.svg)](https://github.com/GregTrevellick/CleanArchitecture)
-[![Github language count](https://img.shields.io/github/languages/count/GregTrevellick/CleanArchitecture.svg)](https://github.com/GregTrevellick/CleanArchitecture)
- [![GitHub issues](https://img.shields.io/github/issues-raw/GregTrevellick/CleanArchitecture.svg)](https://github.com/GregTrevellick/CleanArchitecture/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr-raw/GregTrevellick/CleanArchitecture.svg)](https://github.com/GregTrevellick/CleanArchitecture/pulls)
-[![GitHub followers](https://img.shields.io/github/followers/GregTrevellick.svg)](https://github.com/GregTrevellick?tab=followers)
-[![GitHub stars](https://img.shields.io/github/stars/GregTrevellick/CleanArchitecture.svg)](https://github.com/GregTrevellick/CleanArchitecture)
-[![GitHub watchers](https://img.shields.io/github/watchers/GregTrevellick/CleanArchitecture.svg)](https://github.com/GregTrevellick/CleanArchitecture/watchers)
-[![Sonar&metric=alert_status](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=alert_status)](https://sonarcloud.io/dashboard?id=CleanArchitecture)
-[![Sonar&metric=bugs](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=bugs)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=bugs)
-[![Sonar&metric=code_smells](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=code_smells)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=code_smells)
-[![Sonar&metric=coverage](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=coverage)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=Coverage)
-[![Sonar&metric=duplicated_lines_density](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=duplicated_lines_density)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=duplicated_lines)
-[![Sonar&metric=ncloc](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=ncloc)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=ncloc)
-[![Sonar&metric=reliability_rating](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=reliability_rating)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=reliability_rating)
-[![Sonar&metric=security_rating](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=security_rating)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=security_rating)
-[![Sonar&metric=sqale_index](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=sqale_index)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=sqale_index)
-[![Sonar&metric=sqale_rating](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=sqale_rating)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=sqale_rating)
-[![Sonar&metric=vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=CleanArchitecture&metric=vulnerabilities)](https://sonarcloud.io/component_measures?id=CleanArchitecture&metric=vulnerabilities)
-[![Appveyor Build status](https://ci.appveyor.com/api/projects/status/6raa1n0tucf66h0q?svg=true)](https://ci.appveyor.com/project/GregTrevellick/CleanArchitecture)
-[![Appveyor unit tests](https://img.shields.io/appveyor/tests/GregTrevellick/CleanArchitecture.svg)](https://ci.appveyor.com/project/GregTrevellick/CleanArchitecture/build/tests)
-[![Azure Build Status](https://gregtrevellick.visualstudio.com/CleanArchitecture/_apis/build/status/CleanArchitecture)](https://gregtrevellick.visualstudio.com/CleanArchitecture/_build/latest?definitionId=41)
-[![Hound](https://img.shields.io/badge/hound_ci-checked-brightgreen.svg)](https://houndci.com/)
-[![Access Lint github](https://img.shields.io/badge/a11y-checked-brightgreen.svg)](https://www.accesslint.com)
-[![ImgBot](https://img.shields.io/badge/images-optimized-brightgreen.svg)](https://imgbot.net/)
-[![Renovate Bot github](https://img.shields.io/badge/renovatebot-checked-brightgreen.svg)](https://renovatebot.com/)
-[![Charity Ware](https://img.shields.io/badge/charity%20ware-thank%20you-brightgreen.svg)](https://github.com/GregTrevellick/MiscellaneousArtefacts/wiki/Charity-Ware)
-[![License](https://img.shields.io/github/license/gittools/gitlink.svg)](/LICENSE.txt)
-[![Subscribe](https://img.shields.io/badge/subscribe%20to%20receive%20notificatons-grey.svg)](https://github.com/GregTrevellick/CleanArchitecture/subscription)
-[![](https://codescene.io/projects/7067/status.svg)](https://codescene.io/projects/7067/jobs/latest-successful/results)
-
-[![Visual Studio Marketplace version](https://img.shields.io/badge/-CleanArchitecture-%23e2165e.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture)
-[![Visual Studio Marketplace downloads](https://vsmarketplacebadge.apphb.com/installs/GregTrevellick.CleanArchitecture.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture)
-[![Visual Studio Marketplace ratings](https://vsmarketplacebadge.apphb.com/rating/GregTrevellick.CleanArchitecture.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture)
-[![Visual Studio Marketplace version](https://vsmarketplacebadge.apphb.com/version/GregTrevellick.CleanArchitecture.svg)](https://marketplace.visualstudio.com/items?itemName=GregTrevellick.CleanArchitecture)
-
+[![BCH compliance](https://bettercodehub.com/edge/badge/dablon/CleanArchitecture?branch=master)](https://bettercodehub.com/)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/f23c2638129b47188c399a40e27ffdd9)](https://www.codacy.com/gh/dablon/CleanArchitecture/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=dablon/CleanArchitecture&amp;utm_campaign=Badge_Grade)
 
 
 <!--BadgesEND-->
