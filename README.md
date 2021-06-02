@@ -1,4 +1,4 @@
->## NOTE: This repo is a fork of Steve Smith's [Clean Architecture](https://github.com/ardalis/CleanArchitecture) repo with additional code to facilitate publication as a 
+>## NOTE: This repo is a fork of GregTrevellick  [Clean Architecture](https://github.com/GregTrevellick/CleanArchitecture)  repo with additional code to facilitate publication as a 
 
 <!--BadgesSTART-->
 <!-- Powered by https://github.com/GregTrevellick/ReadMeSynchronizer -->
