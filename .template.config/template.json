@@ -20,9 +20,9 @@
   },
   "identity": "Clean.Architecture",
   "groupIdentity": "CleanArchitecture",
-  "name": "Dablon Clean Architecture",
+  "name": "Trafpayment Clean Architecture",
   "preferNameDirectory": true,
-  "shortName": "clean-arch-dablon",
+  "shortName": "clean-arch-trafpay",
   "sourceName": "Clean.Architecture",
   "sources": [
     {

@@ -1,46 +1,46 @@
 <Project>
   <PropertyGroup Label="SDK Versions">
     <NetStandardTargetVersion>netstandard2.0</NetStandardTargetVersion>
-    <NetCoreTargetVersion>net5.0</NetCoreTargetVersion>
+    <NetCoreTargetVersion>net6.0</NetCoreTargetVersion>
   </PropertyGroup>
 
   <PropertyGroup Label="Package Versions">
-    <ArdalisApiEndpoints>3.1.0</ArdalisApiEndpoints>
+    <ArdalisApiEndpoints>3.0.1</ArdalisApiEndpoints>
     <ArdalisEFCoreExtensions>1.1.0</ArdalisEFCoreExtensions>
     <ArdalisHttpClientTestExtensions>1.0.0</ArdalisHttpClientTestExtensions>
-    <ArdalisGuardClauses>3.2.0</ArdalisGuardClauses>
-    <ArdalisListStartupServices>1.1.3</ArdalisListStartupServices>
-	  <ArdalisResult>3.1.1</ArdalisResult>
-    <ArdalisResultAspNetCore>3.0.1</ArdalisResultAspNetCore>
-    <ArdalisSpecification>5.1.0</ArdalisSpecification>
-    <ArdalisSpecificationEntityFrameworkCore>5.1.0</ArdalisSpecificationEntityFrameworkCore>
-    <Autofac>6.2.0</Autofac>
-    <AutofacExtensionsDependencyInjection>7.1.0</AutofacExtensionsDependencyInjection>
+    <ArdalisGuardClauses>4.0.1</ArdalisGuardClauses>
+    <ArdalisListStartupServices>1.1.4</ArdalisListStartupServices>
+	  <ArdalisResult>4.0.0</ArdalisResult>
+    <ArdalisResultAspNetCore>4.0.0</ArdalisResultAspNetCore>
+    <ArdalisSpecification>6.1.0</ArdalisSpecification>
+    <ArdalisSpecificationEntityFrameworkCore>6.1.0</ArdalisSpecificationEntityFrameworkCore>
+    <Autofac>6.4.0</Autofac>
+    <AutofacExtensionsDependencyInjection>8.0.0</AutofacExtensionsDependencyInjection>
 	  <MediatR>9.0.0</MediatR>
-	  <MicrosoftAspNetCoreMvcNewtonsoftJson>5.0.5</MicrosoftAspNetCoreMvcNewtonsoftJson>
+	  <MicrosoftAspNetCoreMvcNewtonsoftJson>6.0.7</MicrosoftAspNetCoreMvcNewtonsoftJson>
     <MicrosoftBuildCentralPackageVersions>2.0.46</MicrosoftBuildCentralPackageVersions>
-  	<MicrosoftEntityFrameworkCoreInMemory>5.0.5</MicrosoftEntityFrameworkCoreInMemory>
-    <MicrosoftEntityFrameworkCoreSqlServer>5.0.5</MicrosoftEntityFrameworkCoreSqlServer>
-    <MicrosoftEntityFrameworkCoreSqlite>5.0.6</MicrosoftEntityFrameworkCoreSqlite>
-    <MicrosoftEntityFrameworkCoreTools>5.0.5</MicrosoftEntityFrameworkCoreTools>
-	  <MicrosoftVisualStudioWebCodeGenerationDesign>5.0.2</MicrosoftVisualStudioWebCodeGenerationDesign>
-    <Moq>4.16.1</Moq>
+  	<MicrosoftEntityFrameworkCoreInMemory>6.0.7</MicrosoftEntityFrameworkCoreInMemory>
+    <MicrosoftEntityFrameworkCoreSqlServer>6.0.7</MicrosoftEntityFrameworkCoreSqlServer>
+    <MicrosoftEntityFrameworkCoreSqlite>6.0.7</MicrosoftEntityFrameworkCoreSqlite>
+    <MicrosoftEntityFrameworkCoreTools>6.0.7</MicrosoftEntityFrameworkCoreTools>
+	  <MicrosoftVisualStudioWebCodeGenerationDesign>6.0.7</MicrosoftVisualStudioWebCodeGenerationDesign>
+    <Moq>4.18.1</Moq>
     <NETStandardLibrary>2.0.3</NETStandardLibrary>
-    <NewtonsoftJson>13.0.1</NewtonsoftJson>
-    <ReportGenerator>4.8.8</ReportGenerator>
-    <SwashbuckleAspNetCore>6.1.4</SwashbuckleAspNetCore>
-    <SerilogAspNetCore>4.1.0</SerilogAspNetCore>
+    <NewtonsoftJson>12.0.1</NewtonsoftJson>
+    <ReportGenerator>5.1.9</ReportGenerator>
+    <SwashbuckleAspNetCore>6.4.0</SwashbuckleAspNetCore>
+    <SerilogAspNetCore>6.0.1</SerilogAspNetCore>
     <SQLite>3.13.0</SQLite>
-    <SwashbuckleAspNetCoreAnnotations>6.1.4</SwashbuckleAspNetCoreAnnotations>
-	  <SwashbuckleAspNetCoreFilters>7.0.2</SwashbuckleAspNetCoreFilters>
+    <SwashbuckleAspNetCoreAnnotations>6.4.0</SwashbuckleAspNetCoreAnnotations>
+	  <SwashbuckleAspNetCoreFilters>7.0.3</SwashbuckleAspNetCoreFilters>
 
   </PropertyGroup>
 
   <PropertyGroup Label="Test Package Versions">
-    <CoverletCollector>3.0.3</CoverletCollector>
-    <MicrosoftNETTestSdk>16.9.4</MicrosoftNETTestSdk>
-    <MicrosoftAspNetCoreMvcTesting>5.0.6</MicrosoftAspNetCoreMvcTesting>
-    <XunitRunnerVisualstudio>2.4.3</XunitRunnerVisualstudio>
+    <CoverletCollector>3.1.2</CoverletCollector>
+    <MicrosoftNETTestSdk>17.2.0</MicrosoftNETTestSdk>
+    <MicrosoftAspNetCoreMvcTesting>6.0.7</MicrosoftAspNetCoreMvcTesting>
+    <XunitRunnerVisualstudio>2.4.5</XunitRunnerVisualstudio>
     <Xunit>2.4.1</Xunit>
   </PropertyGroup>
 
